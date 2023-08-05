@@ -1,0 +1,55 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+.landing-page {
+ font-family: sans-serif;
+ text-align: center;
+ max-width: 330px;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ padding: 20px;
+ margin-top: 30px;
+ .form__custom-button{
+  margin-top: 50px;
+ }
+}
+
+.MuiTextField-root{
+ margin-top: 10px !important;
+}
+
+.register-link {
+ align-self: flex-end;
+ font-size: 14px !important;
+ margin-top: 10px !important;
+ a{
+  text-decoration: none;
+ }
+}
+.MuiButton-textPrimary {
+ background: peachpuff !important;
+}
+.srv-validation-message{
+ color: red;
+ text-align: left;
+ font-size: 13px;
+ margin-top: 8px;
+}
+.Details{
+ margin-top: 20px !important;
+}
+.gender-label{
+ margin-top: 35px;
+ align-items: left !important;
+ text-align: left;
+ font-size: 13px !important;
+}
+.gender-formgroup{
+ flex-direction: row !important;
+}
+.logout-btn{
+ margin-top: 10px !important;
+}
